@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(pics/—Pngtree—texture\ of\ vibrant\ purple\ wallpaper_15297775.jpg);
+  background-position: center;
+  background-size: cover;
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container {
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 0 0 100px 5px;
+  width: 30%;
+  height: 40%;
+  display: block;
+}
+input {
+  box-sizing: border-box;
+  padding-left: 5px;
+  border-radius: 20px;
+  display: block;
+}
+.login {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+input {
+  opacity: 80%;
+  width: 50%;
+  height: 40%;
+}
+.username,
+.password {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  height: 50px;
+}
+.head {
+  color: red;
+}
